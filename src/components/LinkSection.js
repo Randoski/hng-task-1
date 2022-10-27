@@ -1,67 +1,63 @@
 import React from "react";
+import '../assets/styles/link-section.css';
 
 function LinkSection() {
     return (
-        <section>
+        <section id="link-section-container">
+
             {/* Links */}
-            <section>
+
+            <section className="link-container">
+
                 {/* Twitter Link */}
-                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer">
+                <a href="https://twitter.com/randoskii/" target="_blank" rel="noreferrer" id="twitter" className="link">
                     Twitter Link
                 </a>
 
                 {/* Zuri Team */}
-                <a href="http://books.zuri.team/" target="_blank" rel="noreferrer">
+                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer" id="btn__zur" className="link">
                     Zuri Team
                 </a>
 
                 {/* Zuri Books */}
-                <a href="https://books.zuri.team/" target="_blank" rel="noreferrer">
+                <a href="https://books.zuri.team/" target="_blank" rel="noreferrer" id="books" className="link">
                     Zuri Books
                 </a>
 
                 {/* Python Books */}
-                <a
-                    href="https://background.zuri.team/"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                <a href="https://books.zuri.team/" target="_blank" rel="noreferrer" id="book__python" className="link">
                     Python Books
                 </a>
 
                 {/* Background check for Coders */}
                 <a
-                    href="https://background.zuri.team/"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                    href="https://background.zuri.team/" target="_blank" rel="noreferrer" id="pitch" className="link">
                     Background Check for Coders
                 </a>
 
                 {/* Design Books */}
                 <a
-                    href="https://books.zuri.team/design-rules"
-                    target="_blank"
-                    rel="noreferrer"
-                >
+                    href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer" id="book__design" className="link">
                     Design Books
                 </a>
+
             </section>
 
             {/* Slack and GitHub */}
-            <section>
+            <section className="socials">
                 {/* Slack */}
-                <a href="/">
+                <a href="/" className="slack">
                     <img alt="slack logo" src={require("../assets/images/slack.jpg")} />
                 </a>
 
                 {/* GitHub */}
-                <a href="/">
+                <a href="/" className="github">
                     <img alt="GitHub logo" src={require("../assets/images/GitHub.jpg")} />
                 </a>
             </section>
         </section>
     );
 }
+
 
 export default LinkSection;
