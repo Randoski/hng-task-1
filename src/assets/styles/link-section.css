@@ -1,0 +1,32 @@
+/* #link-section-container {
+    
+} */
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.link {
+    background: #EAECF0;
+    color: #101828;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 24px 0;
+    width: 85%;
+    border: 1px solid  #EAECF0;
+}
+
+.link:hover {
+    background: #667085;
+}
+
+.slack {
+    margin-right: 24px;
+}
