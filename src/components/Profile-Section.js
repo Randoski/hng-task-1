@@ -6,7 +6,7 @@ function ProfileSection() {
         // Profile Section
         <section className="profile-container">
             <img alt="Profile pics" src={require("../assets/images/profile_img.jpg")} id="profile__img"/>
-            <h1 id="slack" className="names">Randy</h1>
+            <h1 className="names">Randy</h1>
         </section>
     );
 }

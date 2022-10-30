@@ -14,6 +14,9 @@ function LinkSection() {
                     Twitter Link
                 </a>
 
+                {/* Slack */}
+                <p id="slack" className="link">Slack</p>
+
                 {/* Zuri Team */}
                 <a href="https://training.zuri.team/" target="_blank" rel="noreferrer" id="btn__zur" className="link">
                     Zuri Team
@@ -46,12 +49,12 @@ function LinkSection() {
             {/* Slack and GitHub */}
             <section className="socials">
                 {/* Slack */}
-                <a href="/" className="slack">
+                <a href="https://app.slack.com" className="slack" target="_blank" rel="noreferrer">
                     <img alt="slack logo" src={require("../assets/images/slack.jpg")} />
                 </a>
 
                 {/* GitHub */}
-                <a href="/" className="github">
+                <a href="https://github.com/randoski" className="github" target="_blank" rel="noreferrer">
                     <img alt="GitHub logo" src={require("../assets/images/GitHub.jpg")} />
                 </a>
             </section>

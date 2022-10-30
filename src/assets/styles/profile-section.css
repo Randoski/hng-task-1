@@ -8,6 +8,18 @@
     color: #101828;
 }
 
-/* #slack {
+#slack {
     display: none;
-} */
+}
+
+/* Media Queries */
+@media screen and (min-width: 840px) {
+    .profile-container {
+        margin: 64px 0 56px 0;
+    }
+    
+    .names {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

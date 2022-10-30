@@ -15,18 +15,30 @@
     color: #101828;
     text-decoration: none;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     padding: 24px 0;
     width: 85%;
+    max-width: 700px;
     border: 1px solid  #EAECF0;
 }
 
 .link:hover {
     background: #667085;
+    color: white;
 }
 
 .slack {
     margin-right: 24px;
+}
+
+
+
+/* Media Queries */
+@media screen and (min-width: 840px) {
+    .link {
+    font-size: 18px;
+    line-height: 24px;
+    }
 }
